@@ -25,9 +25,20 @@ header p {
     color: white;
 }
 
-main {
+section {
     display: flex;
     flex-wrap: wrap;
+    flex-flow: row;
+}
+
+article {
+    border: 2px dashed white;
+    padding: 10px;
+    z-index: -1;
+}
+
+article p {
+    font-size: 12px;
 }
 
 h2 {
@@ -37,6 +48,7 @@ h2 {
     padding: 7px;
     text-align: center;
     width: 50%
+    z-index: 2;
 }
 
 pre {
